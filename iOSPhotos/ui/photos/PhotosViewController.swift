@@ -29,6 +29,7 @@ class PhotosViewController: UIViewController, StoryboardBased, View, Coordinated
     override func viewDidLoad() {
         super.viewDidLoad()
         initialSetup()
+        print("Bugfix 1")
     }
 
     // MARK: - Configuration methods
