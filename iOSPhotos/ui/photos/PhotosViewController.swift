@@ -38,6 +38,8 @@ class PhotosViewController: UIViewController, StoryboardBased, View, Coordinated
         configureResfreshControl()
         configureCollectionView()
         loadPhotos()
+        
+        print("Commit 1")
     }
 
     private func configureResfreshControl() {
