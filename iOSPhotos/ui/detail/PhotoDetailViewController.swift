@@ -24,6 +24,7 @@ class PhotoDetailViewController:  UIViewController, StoryboardBased, View, Coord
     override func viewDidLoad() {
         super.viewDidLoad()
         initialSetup()
+        print("Bugfix 2")
     }
 
     // MARK: - Configure methods
